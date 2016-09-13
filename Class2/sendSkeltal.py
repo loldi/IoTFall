@@ -2,8 +2,8 @@ import smtplib
 from email.MIMEMultipart import MIMEMultipart
 from email.MIMEText import MIMEText
  
-fromaddr = "MR SKELTAL"
-toaddr = "GOOD BONES GETTER"
+fromaddr = "*******"
+toaddr = raw_input("WHO DO YOU WANT TO SPOOK?: ")
 msg = MIMEMultipart()
 msg['From'] = fromaddr
 msg['To'] = toaddr
